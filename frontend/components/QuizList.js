@@ -32,7 +32,8 @@ export function QuizList(props) {
     const { value } = evt.target
     setSearchText(value)
   }
-  const onSearchClear = () => {
+  const onSearchClear = evt => {
+    evt.preventDefault()
     setSearchText('')
     getQuizzes()
   }
