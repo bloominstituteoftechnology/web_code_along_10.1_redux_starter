@@ -1,4 +1,4 @@
-# Redux
+# Code-Along 10.1 - Redux
 
 ## Requirements
 
